@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MedialibApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TrainingApplication.class, args);
+		SpringApplication.run(MedialibApplication.class, args);
 	}
 }

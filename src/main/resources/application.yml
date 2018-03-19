@@ -1,0 +1,17 @@
+spring:
+  application: photos
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    platform: POSTGRESQL
+    url: jdbc:postgresql://localhost:5432/photos
+    username: postgres
+    password: Cool61082
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+      show_sql: true
+      dialect: org.hibernate.dialect.PostgreSQL9Dialect
+    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+
+server:
+  port: 8080
